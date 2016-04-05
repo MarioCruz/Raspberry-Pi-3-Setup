@@ -53,6 +53,11 @@ Power your Pi via GPIO via Pin #2 & #6
 ![Alt Text](http://www.modmypi.com/image/data/tutorials/how-to-power-my/4.png)
 
 
-Learn Python 
+#Learn Python 
 http://learnpython.org/
 http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf
+
+#Minecraft and Programming on a Pi
+Building A Castle In Minecraft With Python
+http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
+
