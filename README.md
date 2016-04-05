@@ -22,3 +22,11 @@ Updates the kernel and firmware.
 ```
 sudo rpi-update
 ```
+Pi Bake yourimages.
+```
+http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
+```
+How To Bake your Pi
+```
+https://www.maketecheasier.com/sd-card-images-raspberry-pi-mac/
+```
