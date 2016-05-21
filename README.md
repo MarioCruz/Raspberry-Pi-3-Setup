@@ -38,6 +38,9 @@ https://www.maketecheasier.com/sd-card-images-raspberry-pi-mac/
 ```
 https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation
 
+#Find your Pi using Nmap 
+sudo nmap -sP 192.168.1.0/24 
+look for (Raspberry Pi Foundation)
 
 #Additional Images 
   Gamming
