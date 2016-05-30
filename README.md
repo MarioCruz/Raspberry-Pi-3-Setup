@@ -64,7 +64,7 @@ http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf
 Building A Castle In Minecraft With Python
 http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
 
-PiTFT Setup by Phillip Burgess
+#PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
 ```
 sudo apt-get update
@@ -80,21 +80,23 @@ sudo install fbcp /usr/local/bin/fbcp
 Then we’ll edit one file to launch fbcp automatically as the system boots (feel free to substitute your editor of preference in place of “nano”):
 ```
 sudo nano /etc/rc.local
+```
 Before, the final “exit 0” line, insert the following:
-Copy Code
+```
 /usr/local/bin/fbcp &
 ```
-
 Save the changes and exit.
 We won’t be seeing the console much, but for those rare occasions, let’s set it up for a font better suited to the small PiTFT display:
-Copy Code
+```
 sudo dpkg-reconfigure console-setup
-Select “UTF-8”, “Guess optimal character set”, “Terminus” and “6x12 (framebuffer only).”
-So close! Just a couple more things…
-Edit the file /boot/config.txt and add the following four lines. Most of these (all but the hdmi_cvt line) may already be present in the file, but may have different values and/or are commented out (with a “#” character at the start of the line). You can either delete those lines, or leave them commented out, replacing them with the new lines we provide here:
+```
+Select “UTF-8”
+“Guess optimal character set” 
+“Terminus” and “6x12 (framebuffer only).”
 
+Edit the file /boot/config.txt
 
-Edit the file /boot/config.txt and add the following four lines. Most of these (all but the hdmi_cvt line) may already be present in the file, but may have different values and/or are commented out (with a “#” character at the start of the line). You can either delete those lines, or leave them commented out, replacing them with the new lines we provide here:
+add the following four lines. Most of these (all but the hdmi_cvt line) may already be present in the file, but may have different values and/or are commented out (with a “#” character at the start of the line). You can either delete those lines, or leave them commented out, replacing them with the new lines we provide here:
 
 ```
 hdmi_force_hotplug=1
@@ -109,13 +111,13 @@ Then, to enable the PiTFT device, add one of the following two lines…either:
 ```
 dtoverlay=pitft28-resistive-overlay,rotate=90,speed=80000000,fps=60
 or:
-Copy Code
 dtoverlay=pitft28-capacitive-overlay,rotate=90,speed=80000000,fps=60
 ```
 
 …depending whether you have the resistive or capacitive PiTFT screen. For a 2.2" PiTFT, either one works since that screen doesn’t support touch.
 Though the Pi has no trouble generating 320x240 video, not all HDMI monitors can display this. You might see “no signal” on the monitor following the next reboot. That’s okay…with everything set up right, it’ll all be routed to the PiTFT after a few seconds’ boot time.
 Let’s give it a try…save the changes and reboot.
+
 On startup, after a few seconds’ delay, you should see the RetroPie splash screen on the PiTFT, followed by the rest of the boot process and then EmulationStation. Go ahead and try launching something!
 If an HDMI monitor is still attached, and if it supports 320x240 resolution, you should see the same content on both the monitor and PiTFT.
 Once the system is working satisfactoraly, you can disconnect the HDMI monitor. Everything’s now done through the PiTFT (or remote login via SSH).
