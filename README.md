@@ -122,5 +122,12 @@ On startup, after a few seconds’ delay, you should see the RetroPie splash scr
 If an HDMI monitor is still attached, and if it supports 320x240 resolution, you should see the same content on both the monitor and PiTFT.
 Once the system is working satisfactoraly, you can disconnect the HDMI monitor. Everything’s now done through the PiTFT (or remote login via SSH).
 
-
+#Remapping Controls
+```
+cd Adafruit-Retrogame
+sudo nano retrogame.c
+make retrogame
+sudo mv retrogame /usr/local/bin
+sudo reboot
+```
 
