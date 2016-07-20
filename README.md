@@ -56,6 +56,20 @@ Power your Pi via GPIO via Pin #2 & #6
 ![Alt Text](http://www.modmypi.com/image/data/tutorials/how-to-power-my/4.png)
 
 
+
+#Use the Mac’s Finder to mount the Pi’s volume:
+Install Netatalk, using the Pi’s Terminal command (a one-time setup):
+```
+sudo apt-get install netatalk
+```
+From the Mac Finder’s ‘Go’ menu, select ‘Connect to Server…’
+Enter the Server Address, e.g.: afp://192.168.0.15
+Click the ‘Connect’ button.
+Enter your Pi’s username and password
+
+
+
+
 #Learn Python 
 http://learnpython.org/
 http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf
