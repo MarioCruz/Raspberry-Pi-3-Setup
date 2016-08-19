@@ -60,6 +60,15 @@ Enter the Server Address, e.g.: afp://192.168.0.15
 Click the ‘Connect’ button.
 Enter your Pi’s username and password
 
+Raspberry Pinouts and Pi HATs, pHATs & Add-ons Connections 
+```
+http://pinout.xyz/boards
+```
+
+Resistor calculator
+```
+http://resistor.cherryjourney.pt
+```
 
 
 
