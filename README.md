@@ -18,10 +18,19 @@ Now reboot, to make sure everything is okay:
 sudo shutdown -r now
 ```
 Updates the kernel and firmware.
+
+
 ```
 sudo rpi-update
 ```
-Change your Pi Hostname.
+1 Expand Filesystem 
+2 Enable Camera (if needed)
+
+```
+sudo raspi-config
+```
+
+#Change your Pi Hostname.
 
 First, log onto your Pi and open a terminal window.  Your Pi's name is in a file called 'hostname' in the /etc directory.  Edit that file as superuser with:
 
