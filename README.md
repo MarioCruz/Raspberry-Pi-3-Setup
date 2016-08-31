@@ -29,6 +29,10 @@ sudo rpi-update
 ```
 sudo raspi-config
 ```
+1 Expand Filesystem 
+
+2 Enable Camera (if needed)
+
 
 #Change your Pi Hostname.
 
