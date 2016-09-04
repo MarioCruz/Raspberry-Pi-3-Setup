@@ -13,25 +13,31 @@ sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
 ```
 
-Now reboot, to make sure everything is okay:
+Now reboot, to make sure everything is okay
+
 ```
 sudo shutdown -r now
 ```
-Updates the kernel and firmware.
-
-
-```
-sudo rpi-update
-```
-1 Expand Filesystem 
-2 Enable Camera (if needed)
-
 ```
 sudo raspi-config
 ```
 1 Expand Filesystem 
 
 2 Enable Camera (if needed)
+
+df command  – to check free disk space
+
+```
+df -h
+```
+
+Updates the kernel and firmware.
+```
+sudo rpi-update
+```
+1 Expand Filesystem 
+2 Enable Camera (if needed)
+
 
 
 #Change your Pi Hostname.
