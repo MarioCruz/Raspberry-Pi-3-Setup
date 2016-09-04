@@ -43,7 +43,7 @@ sudo rpi-update
 
 
 # General Commands
-
+```
 apt-get update: Updates your version of Raspbian.
 apt-get upgrade: Upgrades all of the software packages you have installed.
 clear: Clears the terminal screen of previously run commands and text.
@@ -56,7 +56,7 @@ reboot: To reboot immediately.
 shutdown -h now: To shutdown immediately.
 shutdown -h 01:22: To shutdown at 1:22 AM.
 startx: Opens the GUI (Graphical User Interface)
-
+```
 
 
 
