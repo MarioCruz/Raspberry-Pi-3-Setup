@@ -42,6 +42,24 @@ sudo rpi-update
 3 Change your Pi Hostname. (if you want)
 
 
+# General Commands
+
+apt-get update: Updates your version of Raspbian.
+apt-get upgrade: Upgrades all of the software packages you have installed.
+clear: Clears the terminal screen of previously run commands and text.
+date: Prints the current date.
+find / -name example.txt: Searches the whole system for the file example.txt and outputs a list of all directories that contain the file.
+nano example.txt: Opens the file example.txt in “Nano”, the Linux text editor.
+poweroff: To shutdown immediately.
+raspi-config: Opens the configuration settings menu.
+reboot: To reboot immediately.
+shutdown -h now: To shutdown immediately.
+shutdown -h 01:22: To shutdown at 1:22 AM.
+startx: Opens the GUI (Graphical User Interface)
+
+
+
+
 #Pi Bake yourimages.
 ```
 http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
