@@ -18,6 +18,8 @@ Now reboot, to make sure everything is okay
 ```
 sudo shutdown -r now
 ```
+
+Raspberry Pi configuration tool 
 ```
 sudo raspi-config
 ```
