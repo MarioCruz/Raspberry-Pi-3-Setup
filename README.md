@@ -47,6 +47,12 @@ sudo rpi-update
 apt-get update: Updates your version of Raspbian.
 apt-get upgrade: Upgrades all of the software packages you have installed.
 clear: Clears the terminal screen of previously run commands and text.
+ls -l: Lists files in the current directory, along with file size, date modified, and permissions.
+cp XXX: Copies the file or directory 
+rm example.txt: Deletes the file example.txt.
+rmdir example_directory: Deletes the directory example_directory (only if it is empty).
+ifconfig: To check the status of the wireless connection you are using  (to see if wlan0 has acquired an IP address).
+iwconfig: To check which network the wireless adapter is using.
 date: Prints the current date.
 find / -name example.txt: Searches the whole system for the file example.txt and outputs a list of all directories that contain the file.
 nano example.txt: Opens the file example.txt in “Nano”, the Linux text editor.
