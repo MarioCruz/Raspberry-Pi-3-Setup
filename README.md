@@ -80,6 +80,23 @@ https://github.com/RetroPie/RetroPie-Setup/wiki/First-Installation
 sudo nmap -sP 192.168.1.0/24 
 look for (Raspberry Pi Foundation)
 
+
+#kioskMode
+Raspian Pixel with Chromium 
+
+@xscreensaver -no-splash add # to the fornt of the line to disable Screensaver 
+Add these
+```
+@point-rpi
+@xset s off
+@xset s noblank
+@xset -dpms
+@chromium-browser --noerrdialogs --kiosk --incognito https://URL
+```
+
+
+
+
 #Additional Images 
   Gamming
 
