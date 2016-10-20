@@ -84,9 +84,7 @@ look for (Raspberry Pi Foundation)
 #kioskMode
 Raspian Pixel with Chromium 
 
-```
-sudo nano ~/.config/lxsession/LXDE-pi/autostart
-
+```sudo nano ~/.config/lxsession/LXDE-pi/autostart
 ```
 
 To disable the screensaver add a # to the beginning of the line, this comments the line out.
@@ -103,8 +101,7 @@ This disables power management settings and stops the screen blanking after a pe
 
 Finally we need to tell chromium to start and which page to load once it boots without error dialogs and in Kiosk mode. To do this add the following line to the bottom of this autostart file.
 
-```
-@chromium-browser --noerrdialogs --kiosk --incognito https://URL
+```@chromium-browser --noerrdialogs --kiosk --incognito https://URL
 ```
 
 
