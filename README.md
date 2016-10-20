@@ -5,7 +5,6 @@
 - [Raspberrypi.org/downloads](https://www.raspberrypi.org/downloads) 
 
 
-
 Install updated packages:
 ```
 sudo apt-get update
