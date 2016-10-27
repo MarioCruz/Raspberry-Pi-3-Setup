@@ -102,8 +102,30 @@ This disables power management settings and stops the screen blanking after a pe
 Finally we need to tell chromium to start and which page to load once it boots without error dialogs and in Kiosk mode. To do this add the following line to the bottom of this autostart file.
 
 ```
-@chromium-browser --noerrdialogs --kiosk --incognito https://URL
+@chromium-browser --noerrdialogs --kiosk --incognito https://URL URL
 ```
+You can add multiple URLs and tab between them with a script.
+
+by calling a bash file in  ~/.config/lxsession/LXDE-pi/autostart
+
+```
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+# @xscreensaver -no-splash
+@point-rpi
+@xset s off
+@xset s noblank
+@xset -dpms
+@unclutter -idle 0
+@chromium-browser --noerrdialogs --kiosk --incognito https://Yahoo.com http://www.worldometers.info/
+sh tab.sh
+
+```
+inside the tab.sh
+```
+lxterminal --command watch -n30  xdotool key ctrl+Tab
+```
+#EndkioskMode
 
 
 
