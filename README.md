@@ -177,6 +177,13 @@ http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf
 Building A Castle In Minecraft With Python
 http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
 
+#HDMI Setup 
+http://elinux.org/RPiconfig
+sudo nano /boot/config.txt
+hdmi_group=2
+hdmi_mode=28
+
+
 #PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
 ```
