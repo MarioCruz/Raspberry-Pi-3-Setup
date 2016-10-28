@@ -126,11 +126,9 @@ sh tab.sh
 inside the tab.sh
 ```
 lxterminal --command watch -n30  xdotool key ctrl+Tab
+
+
 ```
-#EndkioskMode
-
-
-
 
 #Additional Images 
   Gamming
@@ -179,10 +177,11 @@ http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-pyt
 
 #HDMI Setup 
 http://elinux.org/RPiconfig
+```
 sudo nano /boot/config.txt
 hdmi_group=2
 hdmi_mode=28
-
+```
 
 #PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
