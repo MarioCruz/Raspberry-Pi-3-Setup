@@ -10,6 +10,8 @@ Install updated packages:
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
+
+sudo apt-get install raspberrypi-kernel
 ```
 
 Now reboot, to make sure everything is okay
