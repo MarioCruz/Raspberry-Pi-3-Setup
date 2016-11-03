@@ -176,6 +176,10 @@ Building A Castle In Minecraft With Python
 http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
 
 #HDMI Setup 
+will list the available HDMI modes you screen supports.
+tvservice -m CEA
+tvservice -m DMT
+
 http://elinux.org/RPiconfig
 ```
 sudo nano /boot/config.txt
