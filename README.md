@@ -177,8 +177,13 @@ http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-pyt
 
 #HDMI Setup 
 will list the available HDMI modes you screen supports.
+CEA=Group1 DMT=Group2
+
+```
 tvservice -m CEA
+
 tvservice -m DMT
+```
 
 http://elinux.org/RPiconfig
 ```
