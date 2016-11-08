@@ -1,8 +1,5 @@
 # Raspberry-Pi-3 Setup
-
-Raspbery Pi Breakdown
 ![Alt Text](https://github.com/MarioCruz/Raspberry-Pi-3-Setup/blob/master/Raspberry_Pi_3_breakdown.jpg)
-
 
 #Starting with Noobs or Raspbian 
 
