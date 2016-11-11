@@ -66,7 +66,10 @@ shutdown -h 01:22: To shutdown at 1:22 AM.
 startx: Opens the GUI (Graphical User Interface)
 ```
 
-
+#Edit Wifi from the shell
+```
+Sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+```
 
 #Pi Bake yourimages.
 ```
