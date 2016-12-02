@@ -196,6 +196,14 @@ hdmi_group=2
 hdmi_mode=28
 ```
 
+#Media Player 4 Museum
+
+A minimalistic, Open Source Video Player.
+Loops all MP4 Files from USB Memory.
+No nonsense.
+
+http://mp4museum.org
+
 #PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
 ```
