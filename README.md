@@ -204,6 +204,11 @@ No nonsense.
 
 http://mp4museum.org
 
+#Midnight Commander aka Norton Comander
+Midnight Commander (MC) is a “Swiss army knife” for the Linux console and other terminal environments
+```
+sudo apt-get install mc
+```
 #PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
 ```
