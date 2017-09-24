@@ -66,26 +66,26 @@ shutdown -h 01:22: To shutdown at 1:22 AM.
 startx: Opens the GUI (Graphical User Interface)
 ```
 
-#Edit Wifi from the shell
+# Edit Wifi from the shell
 ```
 Sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
-#Pi Bake yourimages.
+# Pi Bake yourimages.
 ```
 http://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/
 ```
-#How To Bake your Pi
+# How To Bake your Pi
 ```
 https://www.maketecheasier.com/sd-card-images-raspberry-pi-mac/
 ```
 
-#Find your Pi using Nmap 
+# Find your Pi using Nmap 
 sudo nmap -sP 192.168.1.0/24 
 look for (Raspberry Pi Foundation)
 
 
-#kioskMode
+# kioskMode
 Raspian Pixel with Chromium 
 
 ```
