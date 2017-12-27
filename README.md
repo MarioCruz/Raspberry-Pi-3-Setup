@@ -69,7 +69,20 @@ startx: Opens the GUI (Graphical User Interface)
 # Edit Wifi from the shell
 ```
 Sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+
+network={
+ssid="YOUR_NETWORK_NAME"
+psk="YOUR_NETWORK_PASSWORD"
+proto=RSN
+key_mgmt=WPA-PSK
+pairwise=CCMP
+auth_alg=OPEN
+}
+
 ```
+
+
+
 
 # Pi Bake yourimages.
 ```
