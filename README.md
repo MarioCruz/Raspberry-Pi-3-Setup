@@ -98,6 +98,12 @@ sudo nmap -sP 192.168.1.0/24
 look for (Raspberry Pi Foundation)
 
 
+# Volume issues 
+USB DAC/sound card by running 
+```
+alsamixer" 
+```
+
 # kioskMode
 Raspian Pixel with Chromium 
 
@@ -161,15 +167,19 @@ Power your Pi via GPIO via Pin #2 & #6
 
 
 
-#Use the Mac’s Finder to mount the Pi’s volume:
+# Use the Mac’s Finder to mount the Pi’s volume:
+
 Install Netatalk, using the Pi’s Terminal command (a one-time setup):
 ```
 sudo apt-get install netatalk
 ```
+
 From the Mac Finder’s ‘Go’ menu, select ‘Connect to Server…’
 Enter the Server Address, e.g.: afp://192.168.0.15
 Click the ‘Connect’ button.
 Enter your Pi’s username and password
+
+
 
 Raspberry Pinouts and Pi HATs, pHATs & Add-ons Connections 
 ```
@@ -183,15 +193,15 @@ http://resistor.cherryjourney.pt
 
 
 
-#Learn Python 
+# Learn Python 
 http://learnpython.org/
 http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf
 
-#Minecraft and Programming on a Pi
+# Minecraft and Programming on a Pi
 Building A Castle In Minecraft With Python
 http://www.raspberrypi-spy.co.uk/2014/06/building-a-castle-in-minecraft-with-python/
 
-#HDMI Setup 
+# HDMI Setup 
 will list the available HDMI modes you screen supports.
 CEA=Group1 DMT=Group2
 
@@ -208,7 +218,7 @@ hdmi_group=2
 hdmi_mode=28
 ```
 
-#Media Player 4 Museum
+# Media Player 4 Museum
 
 A minimalistic, Open Source Video Player.
 Loops all MP4 Files from USB Memory.
@@ -216,12 +226,12 @@ No nonsense.
 
 http://mp4museum.org
 
-#Midnight Commander aka Norton Comander
+# Midnight Commander aka Norton Comander
 Midnight Commander (MC) is a “Swiss army knife” for the Linux console and other terminal environments
 ```
 sudo apt-get install mc
 ```
-#PiTFT Setup 
+# PiTFT Setup 
 The following setup sequence requires RetroPie (3.6 or later) or Raspbian Jessie or Jessie Lite (2016-03-18 or later). “Native” PiTFT support like this is a very recent addition, and all models of Raspberry Pi (including the Pi 3) are supported.
 ```
 sudo apt-get update
@@ -279,7 +289,7 @@ On startup, after a few seconds’ delay, you should see the RetroPie splash scr
 If an HDMI monitor is still attached, and if it supports 320x240 resolution, you should see the same content on both the monitor and PiTFT.
 Once the system is working satisfactoraly, you can disconnect the HDMI monitor. Everything’s now done through the PiTFT (or remote login via SSH).
 
-#Remapping Controls
+#R emapping Controls
 ```
 cd Adafruit-Retrogame
 sudo nano retrogame.c
