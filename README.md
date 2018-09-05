@@ -83,6 +83,15 @@ auth_alg=OPEN
 
 
 
+# RPi.GPIO emulator.
+Uses the same module name (`RPi.GPIO`) as the actual library so no need to comment out the emulator line
+Works on the mac (no need for the virtual machine)
+makes local development much faster
+
+```
+https://github.com/nosix/raspberry-gpio-emulator
+```
+
 
 # Pi Bake yourimages.
 ```
